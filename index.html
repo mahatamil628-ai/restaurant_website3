@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Savory & Sage, an artisanal bistro featuring fresh seasonal ingredients, fine wine pairings, and a luxury dining experience.">
+  <title>Savory & Sage | Artisanal Fine Dining Restaurant</title>
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="header">
+    <div class="container header-container">
+      <!-- Logo -->
+      <a href="#hero" class="logo">
+        <svg class="logo-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z"/>
+          <path d="M12 6v12"/>
+          <path d="M8 10h8"/>
+        </svg>
+        SAVORY<span>&</span>SAGE
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#menu" class="nav-link">Menu</a>
+        <a href="#testimonials" class="nav-link">Reviews</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#reservation" class="nav-link">Reservation</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header Call to Action -->
+      <div class="header-cta">
+        <a href="#reservation" class="btn btn-outline" style="padding: 10px 20px; font-size: 0.8rem;">Book Table</a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="hamburger" aria-label="Toggle mobile menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <section id="hero" class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <span class="hero-pre-title">Artisanal Kitchen & Wine Bar</span>
+      <h1 class="hero-title">Savour the Art of <br><span>Fine Dining</span></h1>
+      <p class="hero-tagline">Experience an exquisite fusion of local seasonal ingredients, contemporary gastronomy, and award-winning wine lists, set within an elegant, candlelit atmosphere.</p>
+      <div class="hero-buttons">
+        <a href="#menu" class="btn btn-primary">
+          Explore Menu
+          <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"/>
+          </svg>
+        </a>
+        <a href="#reservation" class="btn btn-outline">Reserve a Table</a>
+      </div>
+    </div>
+
+    <!-- Scroll Down mouse indicator -->
+    <div class="scroll-indicator">
+      <a href="#about">
+        <div class="mouse-icon"></div>
+        Scroll Down
+      </a>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ABOUT SECTION
+       ========================================================================== -->
+  <section id="about" class="about section-padding reveal">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Story text -->
+        <div class="about-content">
+          <span class="section-subtitle">Our Story</span>
+          <h2 class="about-title">Artisanal Passion, Organic Roots</h2>
+          <p class="about-text">Founded in 2012, Savory & Sage was born out of a desire to reconnect fine dining with the changing seasons of nature. We believe that exceptional dining starts long before the kitchen—it begins in the rich soils of our local partner farms.</p>
+          <p class="about-text">Our culinary team, led by Executive Chef Julian Vance, merges classic technique with contemporary innovation to elevate humble ingredients into sensory stories. Every herb, spice, and cut of beef is hand-selected and prepared to celebrate pure, unadulterated flavor.</p>
+          
+          <!-- Key features grid -->
+          <div class="about-features">
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="feature-title">100% Organic</h4>
+                <p class="feature-desc">All herbs and vegetables sourced from local bio-farms daily.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="feature-title">Master Craft</h4>
+                <p class="feature-desc">Chef curation blending classical culinary art with modern gastronomy.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Framed chef image -->
+        <div class="about-image-wrapper">
+          <div class="about-image-frame">
+            <img src="assets/images/about-chef.png" alt="Chef plating a dish" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       MENU SECTION
+       ========================================================================== -->
+  <section id="menu" class="menu section-padding reveal">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <span class="section-subtitle">Culinary Mastery</span>
+        <h2 class="section-title">Discover Our Menu</h2>
+        <p class="section-description">Every plate is carefully crafted with seasonal, sustainably-sourced ingredients. Select a category below to filter our offerings.</p>
+      </div>
+
+      <!-- Filter Controls -->
+      <div class="menu-tabs">
+        <button class="menu-tab-btn active" data-filter="all">All Dishes</button>
+        <button class="menu-tab-btn" data-filter="starters">Starters</button>
+        <button class="menu-tab-btn" data-filter="mains">Mains</button>
+        <button class="menu-tab-btn" data-filter="desserts">Desserts</button>
+        <button class="menu-tab-btn" data-filter="drinks">Drinks</button>
+      </div>
+
+      <!-- Dishes Cards Grid -->
+      <div class="menu-grid">
+        <!-- Starter 1 -->
+        <div class="menu-card" data-category="starters">
+          <div class="menu-card-image-box">
+            <span class="dish-badge">Signature</span>
+            <img src="assets/images/dish-starter.png" alt="Burrata Caprese Appetizer" loading="lazy">
+          </div>
+          <div class="menu-card-details">
+            <div class="menu-card-header">
+              <h3 class="dish-name">Burrata Caprese</h3>
+              <span class="dish-price">$18</span>
+            </div>
+            <p class="dish-desc">Creamy heirloom tomato salad served with wild basil pesto, aged balsamic glaze, and grilled country sourdough bread.</p>
+            <div class="menu-card-footer">
+              <span class="dish-meta-tag">Gluten-Free Option</span>
+              <span class="dish-meta-tag">Vegetarian</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Starter 2 -->
+        <div class="menu-card" data-category="starters">
+          <div class="menu-card-image-box">
+            <span class="dish-badge">Chef's Pick</span>
+            <img src="assets/images/dish-starter.png" alt="Truffled Arancini" style="filter: hue-rotate(30deg);" loading="lazy">
+          </div>
+          <div class="menu-card-details">
+            <div class="menu-card-header">
+              <h3 class="dish-name">Truffled Arancini</h3>
+              <span class="dish-price">$16</span>
+            </div>
+            <p class="dish-desc">Crispy wild mushroom risotto balls stuffed with smoked scamorza cheese, finished with shaved black winter truffles.</p>
+            <div class="menu-card-footer">
+              <span class="dish-meta-tag">Vegetarian</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main 1 -->
+        <div class="menu-card" data-category="mains">
+          <div class="menu-card-image-box">
+            <span class="dish-badge">Premium</span>
+            <img src="assets/images/dish-main.png" alt="Dry-Aged Ribeye Steak" loading="lazy">
+          </div>
+          <div class="menu-card-details">
+            <div class="menu-card-header">
+              <h3 class="dish-name">Dry-Aged Ribeye</h3>
+              <span class="dish-price">$45</span>
+            </div>
+            <p class="dish-desc">12oz grass-fed steak, seared with fresh rosemary and roasted garlic butter, served alongside charred wild asparagus.</p>
+            <div class="menu-card-footer">
+              <span class="dish-meta-tag">Gluten-Free</span>
+              <span class="dish-meta-tag">Local Beef</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main 2 -->
+        <div class="menu-card" data-category="mains">
+          <div class="menu-card-image-box">
+            <span class="dish-badge">Fresh Catch</span>
+            <img src="assets/images/dish-main.png" alt="Seared Atlantic Salmon" style="filter: hue-rotate(50deg) saturate(0.85);" loading="lazy">
+          </div>
+          <div class="menu-card-details">
+            <div class="menu-card-header">
+              <h3 class="dish-name">Seared Salmon</h3>
+              <span class="dish-price">$36</span>
+            </div>
+            <p class="dish-desc">Pan-seared crisp-skin salmon served over baby spinach, parsnip purée, and dressed with a saffron-infused citrus butter.</p>
+            <div class="menu-card-footer">
+              <span class="dish-meta-tag">Gluten-Free</span>
+              <span class="dish-meta-tag">Dairy-Free Option</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dessert 1 -->
+        <div class="menu-card" data-category="desserts">
+          <div class="menu-card-image-box">
+            <span class="dish-badge">Must Try</span>
+            <img src="assets/images/dish-dessert.png" alt="Decadent Chocolate Fondant" loading="lazy">
+          </div>
+          <div class="menu-card-details">
+            <div class="menu-card-header">
+              <h3 class="dish-name">Chocolate Fondant</h3>
+              <span class="dish-price">$14</span>
+            </div>
+            <p class="dish-desc">Decadent warm dark chocolate cake with a molten center, fresh raspberries, and a scoop of house-made vanilla bean gelato.</p>
+            <div class="menu-card-footer">
+              <span class="dish-meta-tag">Vegetarian</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dessert 2 -->
+        <div class="menu-card" data-category="desserts">
+          <div class="menu-card-image-box">
+            <span class="dish-badge">Seasonal</span>
+            <img src="assets/images/dish-dessert.png" alt="Lemon Berry Mille-Feuille" style="filter: grayscale(0.2) sepia(0.2) contrast(1.1);" loading="lazy">
+          </div>
+          <div class="menu-card-details">
+            <div class="menu-card-header">
+              <h3 class="dish-name">Lemon Mille-Feuille</h3>
+              <span class="dish-price">$13</span>
+            </div>
+            <p class="dish-desc">Layers of crisp puff pastry, zesty Meyer lemon curd, and fresh summer berries, finished with a light dusting of snow sugar.</p>
+            <div class="menu-card-footer">
+              <span class="dish-meta-tag">Vegetarian</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Drink 1 -->
+        <div class="menu-card" data-category="drinks">
+          <div class="menu-card-image-box">
+            <span class="dish-badge">Artisanal</span>
+            <img src="assets/images/dish-drink.png" alt="Smoked Maple Old Fashioned" loading="lazy">
+          </div>
+          <div class="menu-card-details">
+            <div class="menu-card-header">
+              <h3 class="dish-name">Maple Old Fashioned</h3>
+              <span class="dish-price">$16</span>
+            </div>
+            <p class="dish-desc">Small-batch bourbon, local organic maple syrup, Angostura bitters, smoked with hickory wood under glass dome.</p>
+            <div class="menu-card-footer">
+              <span class="dish-meta-tag">Alcoholic</span>
+              <span class="dish-meta-tag">Vegan</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Drink 2 -->
+        <div class="menu-card" data-category="drinks">
+          <div class="menu-card-image-box">
+            <span class="dish-badge">Refreshing</span>
+            <img src="assets/images/dish-drink.png" alt="Sage Cucumber Fizz Mocktail" style="filter: hue-rotate(80deg) saturate(0.8);" loading="lazy">
+          </div>
+          <div class="menu-card-details">
+            <div class="menu-card-header">
+              <h3 class="dish-name">Sage Cucumber Fizz</h3>
+              <span class="dish-price">$10</span>
+            </div>
+            <p class="dish-desc">Muddled english cucumber, fresh garden sage leaves, freshly squeezed lime juice, elderflower tonic water, served chilled.</p>
+            <div class="menu-card-footer">
+              <span class="dish-meta-tag">Non-Alcoholic</span>
+              <span class="dish-meta-tag">Vegan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PHOTO GALLERY SECTION
+       ========================================================================== -->
+  <section id="gallery" class="gallery section-padding reveal">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <span class="section-subtitle">Visual Journey</span>
+        <h2 class="section-title">Atmosphere & Creations</h2>
+        <p class="section-description">A glimpse inside our kitchen, dining room, and custom creations.</p>
+      </div>
+
+      <!-- Photo Grid -->
+      <div class="gallery-grid">
+        <!-- Photo 1 -->
+        <div class="gallery-item" data-image="assets/images/hero-bg.png">
+          <img src="assets/images/hero-bg.png" alt="Luxury dining room ambiance" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-overlay-icon">&#x1F50D;</span>
+            <span class="gallery-overlay-title">Main Dining Room</span>
+          </div>
+        </div>
+
+        <!-- Photo 2 -->
+        <div class="gallery-item" data-image="assets/images/about-chef.png">
+          <img src="assets/images/about-chef.png" alt="Executive Chef plating a gourmet starter" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-overlay-icon">&#x1F50D;</span>
+            <span class="gallery-overlay-title">Chef's Kitchen</span>
+          </div>
+        </div>
+
+        <!-- Photo 3 -->
+        <div class="gallery-item" data-image="assets/images/dish-starter.png">
+          <img src="assets/images/dish-starter.png" alt="Burrata Caprese starter plate" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-overlay-icon">&#x1F50D;</span>
+            <span class="gallery-overlay-title">Heirloom Caprese</span>
+          </div>
+        </div>
+
+        <!-- Photo 4 -->
+        <div class="gallery-item" data-image="assets/images/dish-main.png">
+          <img src="assets/images/dish-main.png" alt="Seared Ribeye Steak Main" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-overlay-icon">&#x1F50D;</span>
+            <span class="gallery-overlay-title">Dry-Aged Ribeye</span>
+          </div>
+        </div>
+
+        <!-- Photo 5 -->
+        <div class="gallery-item" data-image="assets/images/dish-dessert.png">
+          <img src="assets/images/dish-dessert.png" alt="Molten chocolate dessert" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-overlay-icon">&#x1F50D;</span>
+            <span class="gallery-overlay-title">Molten Lava Fondant</span>
+          </div>
+        </div>
+
+        <!-- Photo 6 -->
+        <div class="gallery-item" data-image="assets/images/dish-drink.png">
+          <img src="assets/images/dish-drink.png" alt="Hickory Smoked Craft Cocktail" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-overlay-icon">&#x1F50D;</span>
+            <span class="gallery-overlay-title">Craft Old Fashioned</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TESTIMONIALS SECTION
+       ========================================================================== -->
+  <section id="testimonials" class="testimonials section-padding reveal">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <span class="section-subtitle">Guest Experience</span>
+        <h2 class="section-title">What Guests Say</h2>
+      </div>
+
+      <!-- Testimonial Slider Wrapper -->
+      <div class="slider-container">
+        <!-- Navigation Arrows -->
+        <button class="slider-nav-btn prev-btn" aria-label="Previous review">&#10094;</button>
+        <button class="slider-nav-btn next-btn" aria-label="Next review">&#10095;</button>
+
+        <div class="testimonial-track">
+          <!-- Slide 1 -->
+          <div class="testimonial-slide">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">"An absolute masterpiece. Every single dish was layered with deep flavors and paired meticulously with local wines. The ambiance is beautifully moody and elegant, perfect for close conversations."</p>
+            <div class="review-author">
+              <span class="author-name">Victoria Sterling</span>
+              <span class="author-role">Culinary Critic, Food & Wine Times</span>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="testimonial-slide">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">"The dry-aged ribeye steak is by far the best I've ever had in the city. Perfectly charred outside and melt-in-your-mouth inside. The chocolate fondant dessert is a mandatory finish!"</p>
+            <div class="review-author">
+              <span class="author-name">Marcus Vance</span>
+              <span class="author-role">Verified Diner, Google Reviews</span>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="testimonial-slide">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">"Our absolute favorite spot for anniversary dinners. The wine selections are amazing and the artisanal cocktails like the Smoked Maple Old Fashioned are outstanding. Impeccable white-glove service!"</p>
+            <div class="review-author">
+              <span class="author-name">Elena & David Chen</span>
+              <span class="author-role">Loyal Patrons</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide Indicators (Dots) -->
+        <div class="slider-dots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       RESERVATION SECTION
+       ========================================================================== -->
+  <section id="reservation" class="reservation section-padding reveal">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <span class="section-subtitle">Secure Your Table</span>
+        <h2 class="section-title">Make a Reservation</h2>
+        <p class="section-description">Reserve your table online. For groups larger than 8, please contact our events desk directly.</p>
+      </div>
+
+      <div class="reservation-grid">
+        <!-- Info Column -->
+        <div class="reservation-info">
+          <h3 class="reservation-info-title">Hours & Policies</h3>
+          
+          <div class="info-list-item">
+            <span class="info-item-icon">&#x1F552;</span>
+            <div style="flex-grow: 1;">
+              <h4 class="info-item-title">Opening Hours</h4>
+              <table class="hours-table">
+                <tr>
+                  <td>Wednesday - Thursday</td>
+                  <td>5:00 PM - 10:00 PM</td>
+                </tr>
+                <tr>
+                  <td>Friday - Saturday</td>
+                  <td>5:00 PM - 11:30 PM</td>
+                </tr>
+                <tr>
+                  <td>Sunday Brunch</td>
+                  <td>11:00 AM - 3:00 PM</td>
+                </tr>
+                <tr>
+                  <td>Monday - Tuesday</td>
+                  <td>Closed</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="info-list-item">
+            <span class="info-item-icon">&#x26A0;</span>
+            <div>
+              <h4 class="info-item-title">Reservation Policy</h4>
+              <p class="info-item-text">Reservations are held for a maximum of 15 minutes. In case of delay, please call our front desk directly to preserve your booking.</p>
+            </div>
+          </div>
+
+          <div class="info-list-item">
+            <span class="info-item-icon">&#x1F4F1;</span>
+            <div>
+              <h4 class="info-item-title">Direct Contact</h4>
+              <p class="info-item-text">Direct Reservations: (555) 839-2910<br>Events & Catering: events@savoryandsage.com</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form Column -->
+        <div class="reservation-form-container">
+          <form id="reservationForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="resName" class="form-label">Full Name</label>
+                <input type="text" id="resName" class="form-control" placeholder="Jane Doe" required>
+                <span class="form-error-msg">Please enter your full name.</span>
+              </div>
+              <div class="form-group">
+                <label for="resEmail" class="form-label">Email Address</label>
+                <input type="email" id="resEmail" class="form-control" placeholder="jane@example.com" required>
+                <span class="form-error-msg">Please enter a valid email address.</span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="resPhone" class="form-label">Phone Number</label>
+                <input type="tel" id="resPhone" class="form-control" placeholder="(555) 000-0000" required>
+                <span class="form-error-msg">Please enter a valid phone number.</span>
+              </div>
+              <div class="form-group">
+                <label for="resGuests" class="form-label">Number of Guests</label>
+                <select id="resGuests" class="form-control" required>
+                  <option value="" disabled selected>Select Guests</option>
+                  <option value="1">1 Guest</option>
+                  <option value="2">2 Guests</option>
+                  <option value="3">3 Guests</option>
+                  <option value="4">4 Guests</option>
+                  <option value="5">5 Guests</option>
+                  <option value="6">6 Guests</option>
+                  <option value="7">7 Guests</option>
+                  <option value="8">8 Guests (Max Online)</option>
+                </select>
+                <span class="form-error-msg">Please select the number of guests.</span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="resDate" class="form-label">Date</label>
+                <input type="date" id="resDate" class="form-control" required>
+                <span class="form-error-msg">Please select a valid date.</span>
+              </div>
+              <div class="form-group">
+                <label for="resTime" class="form-label">Time</label>
+                <input type="time" id="resTime" class="form-control" required>
+                <span class="form-error-msg">Please select a reservation time.</span>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 10px;">
+              Request Reservation
+              <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CONTACT & MAP SECTION
+       ========================================================================== -->
+  <section id="contact" class="contact section-padding reveal">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <span class="section-subtitle">Reach Out</span>
+        <h2 class="section-title">Contact & Location</h2>
+        <p class="section-description">We are located in the heart of the arts district. Come visit us or send us a message.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Styled Vector Map Placeholder -->
+        <div class="map-container">
+          <div class="mock-map"></div>
+          
+          <!-- Decorative SVG map grid lines -->
+          <svg class="map-lines" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,100 L 400,200 M 0,300 L 400,320 M 100,0 L 150,400 M 300,0 L 250,400" />
+            <circle cx="200" cy="200" r="120" stroke="rgba(255,255,255,0.03)" stroke-width="1" />
+            <circle cx="200" cy="200" r="60" stroke="rgba(255,255,255,0.03)" stroke-width="1" />
+          </svg>
+
+          <!-- Bouncing map pin -->
+          <div class="map-pin">
+            <span class="pin-icon">&#x1F4CD;</span>
+            <div class="pin-pulse"></div>
+          </div>
+
+          <!-- Location details card overlay -->
+          <div class="map-card">
+            <h4 class="map-card-title">Savory & Sage Bistro</h4>
+            <p class="map-card-text">482 Sage Boulevard, Suite 100<br>Metropolis, NY 10012</p>
+            <p class="map-card-text" style="color: var(--accent-gold); margin-top: 8px;">Valet parking available at entrance.</p>
+          </div>
+        </div>
+
+        <!-- Contact message form -->
+        <div class="contact-form-container">
+          <form id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="contactName" class="form-label">Name</label>
+              <input type="text" id="contactName" class="form-control" placeholder="John Doe" required>
+              <span class="form-error-msg">Please enter your name.</span>
+            </div>
+            
+            <div class="form-group">
+              <label for="contactEmail" class="form-label">Email Address</label>
+              <input type="email" id="contactEmail" class="form-control" placeholder="john@example.com" required>
+              <span class="form-error-msg">Please enter a valid email address.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="contactMessage" class="form-label">Message</label>
+              <textarea id="contactMessage" class="form-control" placeholder="Tell us how we can help you..." required></textarea>
+              <span class="form-error-msg">Please enter a message.</span>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              Send Message
+              <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"/>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Bio and social -->
+        <div>
+          <a href="#hero" class="logo" style="margin-bottom: 20px;">
+            <svg class="logo-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z"/>
+              <path d="M12 6v12"/>
+              <path d="M8 10h8"/>
+            </svg>
+            SAVORY<span>&</span>SAGE
+          </a>
+          <p class="footer-about-text">A modern culinary sanctuary pairing organic seasonal ingredients with elegant dining atmospheres. Serving fine foods and handcrafted cocktails since 2012.</p>
+          <div class="footer-social-links">
+            <a href="#" class="social-icon" aria-label="Twitter">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+              </svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Instagram">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Facebook">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick navigation -->
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#reservation">Book Table</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact details -->
+        <div>
+          <h4 class="footer-col-title">Reservations</h4>
+          <ul class="footer-links-list">
+            <li><span style="font-size: 0.9rem; color: var(--text-secondary);">(555) 839-2910</span></li>
+            <li><span style="font-size: 0.9rem; color: var(--text-secondary);">info@savoryandsage.com</span></li>
+            <li><span style="font-size: 0.9rem; color: var(--text-secondary);">482 Sage Blvd, Metropolis</span></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter form -->
+        <div>
+          <h4 class="footer-col-title">Newsletter</h4>
+          <p class="footer-newsletter-text">Subscribe to receive notifications about seasonal menu launches and tasting dinners.</p>
+          <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed successfully!'); this.reset();">
+            <input type="email" class="newsletter-input" placeholder="Your Email Address" required aria-label="Email Address">
+            <button type="submit" class="newsletter-btn">Join</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Copyright bar -->
+      <div class="footer-bottom">
+        <p class="copyright-text">&copy; 2026 Savory & Sage Bistro. All rights reserved.</p>
+        <div class="footer-legal-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       LIGHTBOX VIEWPORT OVERLAY
+       ========================================================================== -->
+  <div id="lightbox" class="lightbox">
+    <div class="lightbox-content-box">
+      <span class="lightbox-close">&times;</span>
+      <span class="lightbox-arrow lightbox-prev">&#10094;</span>
+      <span class="lightbox-arrow lightbox-next">&#10095;</span>
+      <img src="" alt="Expanded Food Gallery View" class="lightbox-img">
+      <div class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- JavaScript Interaction Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
